@@ -51,7 +51,7 @@ module "waf_la_log_group" {
 # Enable LB + WAF Log Collection to Logging Analytics
 module "waf_logs_service_connector" {
   count                  = var.configure_waf_logs ? 1 : 0
-  source                 = "../modules/sch"
+  source                 = "github.com/oracle-quickstart/oci-observability-and-management/modules/sch"
   compartment_ocid       = var.compartment_ocid
   la_namespace           = module.logan-core.logan_namespace
   logging_log_group_ocid = module.regional_waf.log_group_ocid

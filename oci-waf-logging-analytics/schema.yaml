@@ -91,7 +91,6 @@ variables:
   log_group:
     description: Logging Analytics log group
     type: string
-    pattern: ^ocid1\.([a-z0-9_-]{1,32})\.([a-z0-9_-]{1,15})\.([a-z0-9]{0,24})\.([a-z0-9]{60})$
 
   dashboard_files:
     type: array
