@@ -11,9 +11,9 @@ module "logan-core" {
   onboard_logging_analytics = var.onboard_logging_analytics
 }
 
-# User groups
+# User group and superadmin policies
 #module "iam" {
-#  source            = "../modules/iam"
+#  source            = "github.com/oracle-quickstart/oci-observability-and-management/modules/iam"
 #  tenancy_ocid      = var.tenancy_ocid
 #  compartment_ocid  = var.compartment_ocid
 #  current_user_ocid = var.current_user_ocid
