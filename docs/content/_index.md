@@ -7,7 +7,7 @@ disableBreadcrumb: true
 
 ## Logging Analytics
 
-Oracle Cloud Infrastructure [Logging Analytics](https://www.oracle.com/manageability/logging-analytics) 
+Oracle Cloud Infrastructure [Logging Analytics] (https://www.oracle.com/manageability/logging-analytics) 
 is a machine learning-based cloud service that monitors, aggregates, indexes, and analyzes all log 
 data from on-premises and multicloud environments. Enabling users to 
 search, explore, and correlate this data to troubleshoot and resolve 

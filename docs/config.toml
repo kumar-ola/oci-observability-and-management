@@ -53,17 +53,17 @@ pre = "<span uk-icon='icon: tag; ratio: 1.25'></span>"
 url = "/tags"
 weight = 30
 
-# [[menu.shortcuts]]
-# name = "GitHub Source"
-# pre = "<span uk-icon='icon: github; ratio: 1.25'></span>"
-# url = "https://github.com/oracle-quickstart/oci-cloudnative"
-# weight = 40
+[[menu.shortcuts]]
+name = "GitHub Source"
+pre = "<span uk-icon='icon: github; ratio: 1.25'></span>"
+url = "https://github.com/oracle-quickstart/oci-observability-and-management"
+weight = 40
 
-# [[menu.shortcuts]]
-# name = "Report Issue"
-# pre = "<span uk-icon='icon: warning; ratio: 1.25'></span>"
-# url = "https://github.com/oracle-quickstart/oci-cloudnative/issues"
-# weight = 50
+[[menu.shortcuts]]
+name = "Report Issue"
+pre = "<span uk-icon='icon: warning; ratio: 1.25'></span>"
+url = "https://github.com/oracle-quickstart/oci-observability-and-management/issues"
+weight = 50
 
 [outputs]
 home = [ "HTML", "JSON"]
